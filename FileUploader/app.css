@@ -1,0 +1,74 @@
+/*
+
+(c) Copyright 2021 ABB
+
+Any unauthorized use, reproduction, distribution,
+or disclosure to third parties is strictly forbidden.
+ABB reserves all rights regarding Intellectual Property Rights
+
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 680px;
+    width: 1026px;
+}
+
+.divBtn{
+    margin: 20px;
+    min-width: 200px;
+}
+
+table{
+    font-family: "Segoe UI", "Verdana", "sans-serif";
+    color: var(--fp-color-BLACK-OPACITY-30);
+    background-color: var(--fp-color-BLACK-OPACITY-2);
+    font-size: 16px;
+    margin: 5px;
+    min-width: 600px;
+}
+
+p{
+    font-family: "Segoe UI", "Verdana", "sans-serif";
+    color: var(--fp-color-BLACK-OPACITY-60);
+    font-size: 16px;
+    margin: 10px;
+    min-width: 100px;
+}
+
+td {
+    vertical-align: baseline;
+    height: 20px;
+    max-height: 20px;
+}
+
+.divRow{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: flex-start;
+}
+
+.divColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.loader {
+    border: 8px solid var(--fp-color-BLACK-OPACITY-10);
+    border-top: 8px solid var(--fp-color-BLUE-50);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

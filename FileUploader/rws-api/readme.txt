@@ -1,0 +1,1 @@
+Copy contents from rws-api release to this folder.
