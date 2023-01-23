@@ -1,1 +1,10 @@
-This is read me
+This application is intended to be used with ABB robot OmniCore controller
+
+This is a webpage hosted by the OmniCore controller that allow to upload a file from a remote client to the HOME folder of the OmniCore
+
+How to : 
+Download folder "FileUploader"
+Unzip and copy in HOME folder of the OmniCore controller
+From a client (e.g a laptop connected to mgmt port) browse " https://192.168.125.1:80/fileservice/$home/FileUploader/index.html "
+Then you can select a file from your computer and upload it to the controller
+
